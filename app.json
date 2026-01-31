@@ -7,6 +7,18 @@
       "output": "static"
     },
     "name": "surveygh",
-    "slug": "surveygh"
+    "slug": "surveygh",
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "android": {
+      "permissions": ["ACCESS_FINE_LOCATION"]
+    },
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to show your position on the map"
+      }
+    }
   }
 }

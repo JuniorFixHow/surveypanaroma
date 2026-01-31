@@ -1,0 +1,25 @@
+declare module "*.css" {
+  const content: undefined;
+  export default content;
+}
+
+
+declare module '*.png' {
+  const value: number
+  export default value
+}
+
+declare module '*.jpg' {
+  const value: number
+  export default value
+}
+
+declare module '*.jpeg' {
+  const value: number
+  export default value
+}
+
+declare module '*.svg' {
+  const value: any
+  export default value
+}

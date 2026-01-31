@@ -1,2 +1,15 @@
 @import "tailwindcss";
 @import "uniwind";
+
+
+.small-grey{
+    @apply text-sm text-gray-500;
+}
+
+.flex-center{
+    @apply flex items-center justify-center;
+}
+
+.screen{
+    @apply flex flex-col bg-red-500 dark:bg-black flex-1 mt-8 mb-8 px-4 w-full;
+}
