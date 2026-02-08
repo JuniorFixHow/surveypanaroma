@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Survey Panorama",
-  description: "Get a better understanding of your job search",
+  description: "Get a better understanding of your landscape",
 };
 
 export default function RootLayout({
