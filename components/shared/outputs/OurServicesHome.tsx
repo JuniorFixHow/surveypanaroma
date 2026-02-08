@@ -1,5 +1,6 @@
 import { HomeContent } from "@/data/HomeContent"
 import PrimaryBtn from "../buttons/PrimaryBtn"
+import Link from "next/link"
 
 const OurServicesHome = () => {
   return (
@@ -19,7 +20,11 @@ const OurServicesHome = () => {
                 ))
             }
         </div>
-        <div className="flex-center"><PrimaryBtn className="py-2.5" text="View All Services" /></div>
+        <div className="flex-center">
+            <Link href={'/services'} >
+                <PrimaryBtn className="py-2.5" text="View All Services" />
+            </Link>
+        </div>
     </section>
   )
 }

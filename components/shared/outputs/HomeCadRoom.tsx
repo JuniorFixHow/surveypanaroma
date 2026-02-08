@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import OutlineBtn from '../buttons/OutlineBtn'
 import Image from 'next/image'
 
@@ -7,7 +8,9 @@ const HomeCadRoom = () => {
         <div className="flex gap-4 items-center md:items-start flex-col w-full md:w-[45%]">
             <span className='text-white text-lg md:text-4xl font-bold' >CAD-Survey Room</span>
             <span className='text-white text-sm md:text-xl' >Professional CAD and surveying training designed for students, young surveyors, and industry professionals.</span>
-            <OutlineBtn className='w-fit' text='View Courses' />
+            <Link href={'/courses'} >
+              <OutlineBtn className='w-fit' text='View Courses' />
+            </Link>
         </div>
         <div className="flex w-full relative md:w-[45%] h-80 md:h-136">
             <Image className='rounded' alt='CAD-Survey Room' fill src={'/images/HomePage4.png'} />
