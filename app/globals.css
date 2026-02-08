@@ -1,26 +1,33 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.flex-center {
+  @apply flex items-center justify-center
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.small-content {
+  @apply text-sm md:text-lg
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.title {
+  @apply text-[#1E293B] text-xl md:text-4xl font-bold
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.twenty {
+  @apply text-sm md:text-xl text-[#4B5563]
+}
+
+.sixteen {
+  @apply text-xs md:text-[16px] text-[#4B5563]
+}
+
+.semi-twenty {
+  @apply text-[16px] md:text-xl text-[#4B5563] font-semibold
+}
+
+.subtitle {
+  @apply text-[#111827] font-bold text-lg md:text-xl
+}
+
+.input {
+  @apply border border-[#D1D5DB] rounded outline-none px-3 py-1.5 md:py-1
 }
