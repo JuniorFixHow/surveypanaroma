@@ -15,7 +15,7 @@ const AboutBuilding = () => {
 
         <div className="flex flex-col w-full gap-6 md:justify-between md:flex-row items-center md:items-start">
             <div className="flex w-full md:w-[45%] flex-col gap-5 md:gap-10 items-center md:items-start">
-                <span className="small-content text-[#374151] text-center md:text-start" >Survey Panorama was founded by Emmanuel Bosomtwe with a clear mission to provide accurate surveying services, reliable land documentation support, and professional training using modern tools and best practices.</span>
+                <span className="small-content text-[#374151]" >Survey Panorama was founded by Emmanuel Bosomtwe with a clear mission to provide accurate surveying services, reliable land documentation support, and professional training using modern tools and best practices.</span>
                 <div className="flex flex-col gap-4">
                     <div className="flex flex-row gap-2">
                         <RoundCheck/>
