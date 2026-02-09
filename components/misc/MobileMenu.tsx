@@ -40,6 +40,7 @@ const MobileMenu = ({ setShow }: MobileMenuProps) => {
           const onPage = isActive(item.href);
           return (
             <Link
+                onClick={()=>setShow(false)}
                 key={item.name}
                 href={item.href}
                 className={`group relative overflow-hidden rounded-xl ${onPage ? 'bg-white/10' : ''}`}

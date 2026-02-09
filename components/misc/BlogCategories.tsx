@@ -9,7 +9,7 @@ type BlogCategoriesProps = {
 const BlogCategories = ({ setCategory }: BlogCategoriesProps) => {
 
   return (
-    <div className="flex flex-col gap-5 items-center" >
+    <div className="flex flex-col gap-5 items-center w-full" >
         <div className="flex flex-col items-center gap-1.5">
             <span className="title" >Explore by Category</span>
             <span className="text-[#4B5563] small-content" >Find articles that match your interests</span>
