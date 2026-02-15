@@ -11,7 +11,7 @@ const BlogCard = ({blog}:BlogCardProps) => {
     
   return (
     <Link href={`/blogs/${blog.id}`} className="flex flex-col shadow bg-white rounded-xl w-full md:w-60 h-100 cursor-pointer" >
-        <div className="h-2/5 md:h-1/3 w-full relative">
+        <div className="h-1/2 md:h-1/3 w-full relative">
             <Image src={blog?.image} fill className="rounded-t-xl" alt={blog?.title} />
         </div>
         <div className="flex flex-col p-4 gap-4">

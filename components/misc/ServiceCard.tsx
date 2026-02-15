@@ -41,7 +41,7 @@ const ServiceCard = ({service}: ServiceCardProps) => {
             </Link>
         </div>
         <div className="h-52 md:h-full w-full md:w-1/4 relative">
-            <Image src={service.image} fill className="rounded md:rounded-tr-2xl" alt={service.name} />
+            <Image objectFit="cover" src={service.image} fill className="rounded md:rounded-tr-2xl" alt={service.name} />
         </div>
     </section>
   )
