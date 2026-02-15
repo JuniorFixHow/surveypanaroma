@@ -11,7 +11,7 @@ const BottomNav = () => {
             </div>
             <div className="flex gap-1 md:gap-4 flex-col items-center md:items-start">
                 <span  className="text-[#F9FAFB] font-bold text-[16px]">Services</span>
-                <Link href={'/services#Cadestral Surveying'}  className="text-[#9CA3AF] text-[16px] hover:underline" >Cadestral Surveying</Link>
+                <Link href={'/services#Cadastral Surveying'}  className="text-[#9CA3AF] text-[16px] hover:underline" >Cadastral Surveying</Link>
                 <Link href={'/services#Land Documentation Support'}  className="text-[#9CA3AF] text-[16px] hover:underline" >Land Documentation</Link>
                 <Link href={'/services#Site Planning & Setting Out'}  className="text-[#9CA3AF] text-[16px] hover:underline" >Site Planning</Link>
             </div>

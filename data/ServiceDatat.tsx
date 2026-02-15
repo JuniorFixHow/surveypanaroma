@@ -7,7 +7,7 @@ import { PiDroneBold } from "react-icons/pi";
 
 export const ServiceData: IServices[] = [
     {
-        name: 'Cadestral Surveying',
+        name: 'Cadastral Surveying',
         description: 'We provide accurate boundary surveys to clearly define land ownership and prevent disputes.',
         icon: <ContentIcon className="bg-[#0F766E1A]/90" icon={<FaMapMarkedAlt size={22} color="#0F4C75" />} />,
         purpose: ['Landowners', 'Developers', 'Institutions'],

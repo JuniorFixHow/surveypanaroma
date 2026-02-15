@@ -6,7 +6,7 @@ import { PiDroneBold } from "react-icons/pi";
 
 export const HomeContent: IContentItems[] = [
     {
-        name: 'Cadestral Surveying',
+        name: 'Cadastral Surveying',
         description: 'Accurate boundary definition to secure land ownership and prevent disputes.',
         icon: <ContentIcon className="bg-[#0F4C75]" icon={<FaMapMarkedAlt size={22} color="white" />} />
     },

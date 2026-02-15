@@ -4,6 +4,11 @@ import CurvedTop from "./CurvedTop"
 import Image from "next/image"
 
 const HomeTop = () => {
+    const subject = `Service Request`;
+    const body = `
+        Hello,
+        I am interested in requesting your services and would like to make a request.
+    `
   return (
     <CurvedTop>
         <div className="flex gap-6 md:gap-4 flex-col md:flex-row items-center">
@@ -14,8 +19,10 @@ const HomeTop = () => {
                 </div>
                 <span className="text-white text-sm md:text-xl max-w-[88%]" >Accurate land surveying, reliable documentation support, and professional training—helping individuals, developers, and institutions make confident land decisions across Ghana.</span>
                 <div className="flex items-center gap-4">
-                    <OutlineBtn className="text-xs md:text-sm" text="Request a Survey" />
-                    <Link href={'#'}  className="text-white text-sm md:text-xl hover:underline" >Explore Our Services →</Link>
+                    <Link href={`mailto:info@surveypanorama.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`} className="w-fit" >
+                        <OutlineBtn className="text-xs md:text-sm" text="Request a Survey" />
+                    </Link>
+                    <Link href={'/services'}  className="text-white text-sm md:text-xl hover:underline" >Explore Our Services →</Link>
                 </div>
             </div>
 
